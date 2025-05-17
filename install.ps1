@@ -105,7 +105,7 @@ $winGetApps = @(
     @{ id = "VideoLAN.VLC"; name = "VLC Media Player" },
     @{ id = "Spotify.Spotify"; name = "Spotify" },
     @{ id = "ShareX.ShareX"; name = "ShareX" },
-    @{ id = "GIMP.GIMP"; name = "GIMP" },
+    @{ id = "GIMP.GIMP.3"; name = "GIMP" },
     @{ id = "Microsoft.VisualStudioCode"; name = "Visual Studio Code" },
     @{ id = "Docker.DockerDesktop"; name = "Docker Desktop" },
     @{ id = "Proton.ProtonVPN"; name = "Proton VPN" },
@@ -113,14 +113,14 @@ $winGetApps = @(
     @{ id = "SumatraPDF.SumatraPDF"; name = "Sumatra PDF" },
     @{ id = "WinSCP.WinSCP"; name = "WinSCP" },
     @{ id = "mRemoteNG.mRemoteNG"; name = "mRemoteNG" },
-    @{ id = "CodeSector.Teracopy"; name = "TeraCopy" },
+    @{ id = "CodeSector.TeraCopy"; name = "TeraCopy" },
     @{ id = "AntibodySoftware.WizTree"; name = "WizTree" },
     @{ id = "Microsoft.PowerToys"; name = "PowerToys" },
     @{ id = "Rainmeter.Rainmeter"; name = "Rainmeter" },
     @{ id = "voidtools.Everything"; name = "Everything" },
     @{ id = "Flow-Launcher.Flow-Launcher"; name = "Flow Launcher" },
     @{ id = "Stardock.Start11"; name = "Start11" },
-    @{ id = "CPUID.HwMonitor"; name = "HWMonitor" }
+    @{ id = "CPUID.HWMonitor"; name = "HWMonitor" }
 )
 
 foreach ($app in $winGetApps) {
